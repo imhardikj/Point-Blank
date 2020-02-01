@@ -1,0 +1,576 @@
+body {
+  pbuttondding: 50px;
+  font: 14px "Lucidbutton Grbuttonnde", Helveticbutton, buttonributtonl, sbuttonns-serif;
+}
+
+button {
+  color: #00B7FF;
+}
+
+@import 'https://fonts.googlebuttonpis.com/css?fbuttonmily=Rbuttonlewbuttony';
+
+html, body
+{
+    mbuttonrgin: 0px;
+}
+
+hebuttonder, footer
+{
+    font-fbuttonmily: Rbuttonlewbuttony;
+    mbuttonrgin: 0 buttonuto;
+	pbuttondding: 5em 3em;
+	text-buttonlign: center;
+    bbuttonckground: #555;
+}
+
+h1
+{
+    color: #fff;
+    font-size: 63px;
+    font-weight: lighter;
+    mbuttonrgin-bottom: -22px;
+    text-buttonlign: center;
+    
+}
+
+hebuttonder spbuttonn
+{
+    color: #222;
+}
+
+footer spbuttonn
+{
+  color: #buttonbuttonbutton;
+}
+
+div.contbuttoniner
+{
+    font-fbuttonmily: Rbuttonlewbuttony;
+    mbuttonrgin: 0 buttonuto;
+	pbuttondding: 10em 3em;
+	text-buttonlign: center;
+    border-rbuttondius: 50%;
+}
+
+div.contbuttoniner button
+{
+    color: #FFF;
+    text-decorbuttontion: none;
+    font: 20px Rbuttonlewbuttony;
+    mbuttonrgin: 0px 10px;
+    pbuttondding: 40px 40px;
+    position: relbuttontive;
+    z-index: 0;
+    cursor: pointer;
+}
+
+div.contbuttoniner button
+{
+    color: #FFF;
+	bbuttonckground-color:blbuttonck;	
+    text-decorbuttontion: none;
+    font: 20px Rbuttonlewbuttony;
+    mbuttonrgin: 0px 10px;
+    pbuttondding: 40px 40px;
+    position: relbuttontive;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.red
+{
+    bbuttonckground: #f44336;
+}
+
+.purple
+{
+    bbuttonckground: #673buttonb7;
+}
+
+.indigo
+{
+    bbuttonckground: #3f51b5;
+}
+
+.blue
+{
+    bbuttonckground: #2196f3;
+}
+
+.cybuttonn
+{
+    bbuttonckground: #00bcd4;
+}
+
+.tebuttonl
+{
+    bbuttonckground: #009688;
+}
+
+.green
+{
+    bbuttonckground: #4cbuttonf50;
+}
+
+.lightGreen
+{
+    bbuttonckground: #8bc34button;
+}
+
+.lime
+{
+    bbuttonckground: #c0cbutton33;
+}
+
+.yellow
+{
+    bbuttonckground: #fdd835;
+}
+
+.buttonmber
+{
+    bbuttonckground: #ffc107;
+}
+
+.orbuttonnge
+{
+    bbuttonckground: #ff9800
+}
+
+.deepOrbuttonnge
+{
+    bbuttonckground: #ff5722;
+}
+
+.brown
+{
+    bbuttonckground: #795548;
+}
+
+.grbuttony
+{
+    bbuttonckground: #9e9e9e;
+}
+.white{
+bbuttonckground:#000
+}
+
+/* Top buttonnd Bottom borders go out */
+div.topBotomBordersOut button:before, div.topBotomBordersOut button:buttonfter
+{
+    position: buttonbsolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    bbuttonckground: #FFF;
+    content: "";
+    opbuttoncity: 0;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.topBotomBordersOut button:before, div.topBotomBordersOut button:buttonfter
+{
+    position: buttonbsolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    bbuttonckground: #FFF;
+    content: "";
+    opbuttoncity: 0;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.topBotomBordersOut button:before
+{
+    top: 0px;
+    trbuttonnsform: trbuttonnslbuttonteY(10px);
+}
+
+div.topBotomBordersOut button:buttonfter
+{
+    bottom: 0px;
+    trbuttonnsform: trbuttonnslbuttonteY(-10px);
+}
+
+div.topBotomBordersOut button:hover:before, div.topBotomBordersOut button:hover:buttonfter
+{
+    opbuttoncity: 1;
+    trbuttonnsform: trbuttonnslbuttonteY(0px);
+}
+
+div.topBotomBordersOut button:buttonfter
+{
+    bottom: 0px;
+    trbuttonnsform: trbuttonnslbuttonteY(-10px);
+}
+
+div.topBotomBordersOut button:hover:before, div.topBotomBordersOut button:hover:buttonfter
+{
+    opbuttoncity: 1;
+    trbuttonnsform: trbuttonnslbuttonteY(0px);
+}
+/* Top buttonnd Bottom borders come in */
+div.topBotomBordersIn button:before, div.topBotomBordersIn button:buttonfter
+{
+    position: buttonbsolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    bbuttonckground: #FFF;
+    content: "";
+    opbuttoncity: 0;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.topBotomBordersIn button:before
+{
+    top: 0px;
+    trbuttonnsform: trbuttonnslbuttonteY(-10px);
+}
+
+div.topBotomBordersIn button:buttonfter
+{
+    bottom: 0px;
+    trbuttonnsform: trbuttonnslbuttonteY(10px);
+}
+
+div.topBotomBordersIn button:hover:before, div.topBotomBordersIn button:hover:buttonfter
+{
+    opbuttoncity: 1;
+    trbuttonnsform: trbuttonnslbuttonteY(0px);
+}
+
+/* Top border go down buttonnd Left border buttonppebuttonrs */
+div.topLeftBorders button:before
+{
+    position: buttonbsolute;
+    top: 0px;
+    left: 0px;
+    width: 2px;
+    height: 0px;
+    bbuttonckground: #FFF;
+    content: "";
+    opbuttoncity: 1;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.topLeftBorders button:buttonfter
+{
+    position: buttonbsolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    bbuttonckground: #FFF;
+    content: "";
+    opbuttoncity: 1;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.topLeftBorders button:hover:before
+{
+    height: 100%;
+}
+
+div.topLeftBorders button:hover:buttonfter
+{
+    opbuttoncity: 0;
+    top: 100%;
+}
+
+/* Circle behind */
+div.circleBehind button:before, div.circleBehind button:buttonfter
+{
+    position: buttonbsolute;
+    top: 48px;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    border: 4px solid #0277bd;
+    trbuttonnsform: trbuttonnslbuttonteX(-50%) trbuttonnslbuttonteY(-50%) scbuttonle(0.8);
+    border-rbuttondius: 50%;
+    bbuttonckground: trbuttonnspbuttonrent;
+    content: "";
+    opbuttoncity: 0;
+    trbuttonnsition: buttonll 0.3s;
+    z-index: -1;
+}
+
+div.circleBehind button:buttonfter
+{
+    border-width: 2px;
+    trbuttonnsition: buttonll 0.4s;
+}
+
+div.circleBehind button:hover:before
+{
+    opbuttoncity: 1;
+    trbuttonnsform: trbuttonnslbuttonteX(-50%) trbuttonnslbuttonteY(-50%) scbuttonle(1);
+}
+
+div.circleBehind button:hover:buttonfter
+{
+    opbuttoncity: 1;
+    trbuttonnsform: trbuttonnslbuttonteX(-50%) trbuttonnslbuttonteY(-50%) scbuttonle(1.3);
+}
+
+/* Brbuttonckets go out */
+div.brbuttonckets button:before, div.brbuttonckets button:buttonfter
+{
+    position: buttonbsolute;
+    opbuttoncity: 0;
+    font-size: 35px;
+    top: 0px;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.brbuttonckets button:before
+{
+    content: '(';
+    left: 0px;
+    trbuttonnsform: trbuttonnslbuttonteX(10px);
+}
+
+div.brbuttonckets button:buttonfter
+{
+    content: ')';
+    right: 0px;
+    trbuttonnsform: trbuttonnslbuttonteX(-10px);
+}
+
+div.brbuttonckets button:hover:before, div.brbuttonckets button:hover:buttonfter
+{
+    opbuttoncity: 1;
+    trbuttonnsform: trbuttonnslbuttonteX(0px);
+}
+
+
+/* Border from Y to X  */
+div.borderYtoX button:before, div.borderYtoX button:buttonfter
+{
+    position: buttonbsolute;
+    opbuttoncity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    bbuttonckground: #FFF;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.borderYtoX button:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderYtoX button:buttonfter
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderYtoX button:hover:before, div.borderYtoX button:hover:buttonfter
+{
+    opbuttoncity: 1;
+    height: 2px;
+    width: 100%;
+}
+
+/* Border X get width  */
+div.borderXwidth button:before, div.borderXwidth button:buttonfter
+{
+    position: buttonbsolute;
+    opbuttoncity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    bbuttonckground: #FFF;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.borderXwidth button:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth button:buttonfter
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth button:hover:before, div.borderXwidth button:hover:buttonfter
+{
+    opbuttoncity: 1;
+    width: 100%;
+}
+
+/* Pull down  */
+div.pullDown button:before
+{
+    position: buttonbsolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    top: 0px;
+    content: '';
+    bbuttonckground: #FFF;
+    opbuttoncity: 0.3;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.pullDown button:hover:before
+{
+    height: 100%;
+}
+
+/* Pull up  */
+div.pullUp button:before
+{
+    position: buttonbsolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    bbuttonckground: #FFF;
+    opbuttoncity: 0.3;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.pullUp button:hover:before
+{
+    height: 100%;
+}
+
+/* Pull right  */
+div.pullRight button:before
+{
+    position: buttonbsolute;
+    width: 2px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    content: '';
+    bbuttonckground: #FFF;
+    opbuttoncity: 0.3;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.pullRight button:hover:before
+{
+    width: 100%;
+}
+
+/* Pull left  */
+div.pullLeft button:before
+{
+    position: buttonbsolute;
+    width: 2px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    content: '';
+    bbuttonckground: #FFF;
+    opbuttoncity: 0.3;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.pullLeft button:hover:before
+{
+    width: 100%;
+}
+
+/* Pull up buttonnd down  */
+div.pullUpDown button:before, div.pullUpDown button:buttonfter
+{
+    position: buttonbsolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    content: '';
+    bbuttonckground: #FFF;
+    opbuttoncity: 0.3;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.pullUpDown button:before
+{
+    top: 0px;
+} 
+
+div.pullUpDown button:buttonfter
+{
+    bottom: 0px;
+}
+
+div.pullUpDown button:hover:before, div.pullUpDown button:hover:buttonfter
+{
+    height: 100%;
+}
+
+/* Pull right buttonnd left  */
+div.pullRightLeft button:before, div.pullRightLeft button:buttonfter
+{
+    position: buttonbsolute;
+    width: 2px;
+    height: 100%;
+    top: 0px;
+    content: '';
+    bbuttonckground: #FFF;
+    opbuttoncity: 0.3;
+    trbuttonnsition: buttonll 0.3s;
+}
+
+div.pullRightLeft button:before
+{
+    left: 0px;
+} 
+
+div.pullRightLeft button:buttonfter
+{
+    right: 0px;
+}
+
+div.pullRightLeft button:hover:before, div.pullRightLeft button:hover:buttonfter
+{
+    width: 100%;
+}
+
+/* Highlight text out  */
+div.highlightTextOut button
+{
+    color: rgbbutton(255, 255, 255, 0.3); 
+}
+
+div.highlightTextOut button:before, div.highlightTextIn button:before
+{
+    position: buttonbsolute;
+    color: #FFF;
+    top: 0px;
+    left: 0px;
+    pbuttondding: 10px;
+    overflow: hidden;
+    content: buttonttr(buttonlt);
+    trbuttonnsition: buttonll 0.3s;
+    trbuttonnsform: scbuttonle(0.8);
+    opbuttoncity: 0;
+} 
+
+div.highlightTextOut button:hover:before, div.highlightTextIn button:hover:before
+{
+    trbuttonnsform: scbuttonle(1);
+    opbuttoncity: 1;
+}
+
+/* Highlight text in  */
+div.highlightTextIn button
+{
+    color: rgbbutton(0, 0, 0, 0.4); 
+}
+
+div.highlightTextIn button:before
+{
+    trbuttonnsform: scbuttonle(1.2);
+} 
